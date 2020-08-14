@@ -1,0 +1,65 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<div>
+			<div class="row">
+				<div class="logo col-sm">
+					<img src="img/biblio.jpg" width="350" height="100">
+				</div>
+				<div class="col-sm wrapper">
+					<h1 style="color: white;">BIBLIOTECA EPN</h1>
+				</div>
+				<div class="logo col-sm">
+					<h6>Autor: Miguel</h6>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Bienvenido al formulario de registro</h1>
+		<form method="post" action="Registro">
+			<div class="form-group">
+				<label for="nombre_libro">Nombre del libro</label> <input
+					type="text" class="form-control" id="nombre_libro"
+					name="Nombre Libro">
+			</div>
+			<div class="form-group">
+				<label for="autor_libro">Autor del libro</label> <input type="text"
+					class="form-control" id="autor_libro" name="Autor">
+			</div>
+			<div class="form-group">
+				<label for="hojas_libro">Cantidad de hojas</label> <input
+					type="text" class="form-control" id="hojas_libro" name="Núm. Hojas">
+			</div>
+			<button type="submit" class="btn btn-dark btn-block" value="Enviar">Enviar</button>
+		</form>
+		<br/> <br/> <br/>
+		<div>
+			<button onclick="location.href='http://localhost:8080/Libro/'"
+				type="button" class="btn btn-dark btn-block">Inicio</button>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<label style="color: white;"> Autor: Miguel Reina </label>
+				</div>
+				<div class="col-sm">
+					<label style="color: white;"> Contactenos: 099 853 5916 </label>
+				</div>
+				<div class="col-sm">
+					<label style="color: white;"> EPN Tecnology </label>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
